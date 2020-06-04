@@ -1,6 +1,37 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+let greeting = 'Hello'; 
+let sum = 0;
+let prod = 0;
+
+greet = (str) => {
+  greeting = greeting + ' ' + str;
+}
+
+sumOfTwo = (a,b) => {
+  sum = a + b;
+}
+
+multiply = (a,b,c) => {
+  prod = a * b * c;
+}
+
+returnWhatISay = (mePlease) => {
+  return mePlease;
+}
+
+sayHi = (just1) => {
+  return 'Hello' + ' ' + just1 + '!';
+}
+
+divide = (num1,num2) => {
+  return num1 / num2;
+}
+
+remainder = (ten,two ) => {
+  return ten % two;
+}
 
 
 
